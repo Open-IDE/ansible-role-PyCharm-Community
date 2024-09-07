@@ -1,0 +1,3 @@
+---
+- include_tasks: 'from:/{{ source }}/main.yml'
+  when: in == "native"

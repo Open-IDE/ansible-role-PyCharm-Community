@@ -1,0 +1,10 @@
+# Home: https://www.jetbrains.com/pycharm/download/?section=linux
+
+version: "2023.2.5"
+file_name: "pycharm-edu-{{ version }}.tar.gz"
+
+download_url: https://download.jetbrains.com/python/pycharm-community-{{ version }}.tar.gz
+checksum_url: https://download.jetbrains.com/python/pycharm-community-{{ version }}.tar.gz.sha256
+
+cache: "{{ ansible_env.HOME }}/.uni/app/cache|"
+to: "/opt/app"
